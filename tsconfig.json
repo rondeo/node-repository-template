@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2019",
+    "module": "commonjs",
+    "outDir": "build",
+    "rootDir": "src",
+    "forceConsistentCasingInFileNames": true,
+    "sourceMap": false,
+    "declaration": false,
+    "strictNullChecks": true
+  },
+  "include": ["src"],
+  "exclude": ["**/**.test.ts"]
+}

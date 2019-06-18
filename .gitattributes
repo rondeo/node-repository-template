@@ -1,0 +1,3 @@
+# Don't merge yarn.lock or build files
+yarn.lock -diff
+build/** -diff

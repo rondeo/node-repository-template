@@ -1,0 +1,20 @@
+{
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    [
+      "@semantic-release/github",
+      {
+        "assets": [
+          "build/**",
+          "README.md",
+          "LICENSE.md",
+          "CHANGELOG.md",
+          "package.json",
+          "yarn.lock"
+        ]
+      }
+    ],
+    "@semantic-release/npm"
+  ]
+}
